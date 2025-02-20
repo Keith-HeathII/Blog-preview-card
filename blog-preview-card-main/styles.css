@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(255, 226, 60);
+    font-family: "Figtree", sans-serif;
+}
+
+.blog-preview-card{
+    width: 325px;
+    padding: 7px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 20px;
+    box-shadow: 7px 7px 0 7px black;
+    border: 1px solid black;
+}
+
+.blog-preview-info{
+    margin-left: 9px;
+}
+
+.blog-preview-info p:first-child{
+    width: 55px;
+    font-size: 14px;
+    background-color: rgb(255, 226, 60);
+    color: rgb(0,0,0);
+    padding: 7px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+h4{
+  font-weight: 400;
+}
+
+.description{
+    font-weight: 400;
+    margin-right: 7px;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(59, 59, 59);
+
+}
+
+
+img{
+    width: 310px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.author{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    font-size: 16;
+    font-weight: 700;
+}
+
+.author img{
+    object-fit: cover;
+    width: 35px;
+    display: block;
+}
