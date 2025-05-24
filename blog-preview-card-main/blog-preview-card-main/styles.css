@@ -1,0 +1,72 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.blog-preview-card{
+    width: 370px;
+    background-color: white;
+    padding: 7.6px;
+    border-radius: 13px;
+    box-shadow: 4.4px 4.4px 0 4.7px black;
+    margin: 20px auto;
+    font-family: "Figtree";
+}
+
+.blog-illustration{
+    width: 345px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 13px;
+}
+
+.yellow-box{
+    width: 80px;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: bold;
+    text-align: center;
+    padding: 4.8px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    border-radius: 4px;
+}
+
+h2{
+  margin-left: 13px;
+  font-size: 600;
+}
+
+h4{
+    margin-left: 13px;
+    margin-top: -0.8px;
+    font-weight: 600;
+}
+ 
+p{
+    margin-left: 13px;
+}
+
+
+.author{
+  display: flex;
+  gap: 1.5px;
+  align-items: center;
+  margin-left: 13px;
+}
+
+.description{
+    line-height: 25px;
+    color: rgb(168, 166, 166);
+    margin-left: 13px;
+    font-size: 16.8px;
+    font-weight: 500;
+}
+
+.author img{
+  width: 35px;
+  object-fit: cover;
+}
+
+.author p{
+    font-weight: bold;
+}
